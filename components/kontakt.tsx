@@ -9,20 +9,21 @@ export default function Kontakt() {
 
   return (
     <section
+      ref={ref}
       id="kontakt"
-      className="scroll-m-28 mb-20 sm:mb-28 w-[min(100%,38rem)]"
+      className="scroll-m-28 mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
     >
       <SectionHeading>Kontakt Oss</SectionHeading>
 
       <p className="text-gray-700">
         Du kan kontakte oss via skjemaet under, eller direkte på:
       </p>
-      <p className="flex items-center justify-center">
-        <BsMailbox />{" "}
-        <a className="underline" href="mailto:post@duogvi.no">
+      <p className="flex justify-center">
+        <BsMailbox className="mr-2" />{" "}
+        <a className="underline mr-2" href="mailto:post@duogvi.no">
           post@duogvi.no{" "}
-        </a>{" "}
-        og <BsFillTelephoneForwardFill />
+        </a>
+        og <BsFillTelephoneForwardFill className="mr-2 ml-2" />
         <a className="underline" href="tel:+4792601265">
           92 60 12 65
         </a>
