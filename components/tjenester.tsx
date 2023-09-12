@@ -1,21 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import SectionHeading from "./section-heading";
 import { tjenesteData } from "@/lib/data";
 import Tjeneste from "./tjeneste";
-import { useInView } from "react-intersection-observer";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Tjenester() {
-  const { ref, inView } = useInView({
-    threshold: 0.5,
-  });
-  const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
-
-  useEffect(() => {
-    if (inView && Date.now() - timeOfLastClick > 1000) {
-      setActiveSection("Tjenester");
-    }
-  }, [inView, setActiveSection, timeOfLastClick]);
+  const { ref } = useSectionInView("Tjenester");
 
   return (
     <section ref={ref} id="tjenester" className="scroll-m-28">
