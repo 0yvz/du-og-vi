@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth">
       <body
         className={
-          "${inter.className} bg-gray-50 text-gray-950 relative h-[5000px] pt-24 sm:pt-32"
+          "${inter.className} bg-gray-50 text-gray-950 relative t-24 sm:pt-32"
         }
       >
         <div className=" bg-orange-100 absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
@@ -33,16 +33,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
-
-export function useActiveSectionContext() {
-  const context = useContext(ActiveSectionContext);
-
-  if (context === null) {
-    throw new Error(
-      "useActiveSectionContext must be used within an ActiveSectionContextProvider"
-    );
-  }
-
-  return context;
 }
