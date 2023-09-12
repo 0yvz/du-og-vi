@@ -4,6 +4,7 @@ import Hjem from "@/components/hjem";
 import OmOss from "@/components/omoss";
 import SectionDivider from "@/components/section-divider";
 import Tjenester from "@/components/tjenester";
+import Kontakt from "@/components/kontakt";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <OmOss />
       <SectionDivider />
       <Tjenester />
+      <SectionDivider />
+      <Kontakt />
     </main>
   );
 }
