@@ -13,7 +13,7 @@ export const links = [
     hash: "#omoss",
   },
   {
-    name: "Tjenster",
+    name: "Tjenester",
     hash: "#tjenester",
   },
   {
