@@ -3,6 +3,7 @@
 import Hjem from "@/components/hjem";
 import OmOss from "@/components/omoss";
 import SectionDivider from "@/components/section-divider";
+import Tjenester from "@/components/tjenester";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Hjem />
       <SectionDivider />
       <OmOss />
+      <SectionDivider />
+      <Tjenester />
     </main>
   );
 }
