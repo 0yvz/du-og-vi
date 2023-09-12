@@ -5,7 +5,7 @@ import Tjeneste from "./tjeneste";
 
 export default function Tjenester() {
   return (
-    <section>
+    <section id="tjenester" className="scroll-m-28">
       <SectionHeading>Tjenester</SectionHeading>
       <div>
         {tjenesteData.map((tjeneste, index) => (
