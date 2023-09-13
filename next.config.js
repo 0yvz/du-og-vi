@@ -7,7 +7,10 @@ const nextConfig = {
 				hostname: 'cdn.discordapp.com',
 			},
 		],
-}
+},
+experimental: {
+	serverActions: true,
+},
 }
 
 module.exports = nextConfig
