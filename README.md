@@ -3,3 +3,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/0yvz/du-og-vi/assets/110482909/e9f84203-d050-46e0-8cf7-a5609ddd45c2">
   <img alt="Du & Vi logo." src="https://github.com/0yvz/du-og-vi/assets/110482909/e9f84203-d050-46e0-8cf7-a5609ddd45c2">
 </picture>
+---
+
+A simple info page with a contact form. Made in React with Next.js, Typescript and Tailwind. Framer motion for animations and resend for email API.
