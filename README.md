@@ -7,8 +7,3 @@
 ---
 
 A simple info page with a contact form. Made in React with Next.js, Typescript and Tailwind. Framer motion for animations and resend for email API.
-
-
-# Deployment
-
-Deplyed on [Netlify](https://duogvi.netlify.app/) and live build on DuogVi.no
