@@ -22,8 +22,8 @@ export default function OmOss() {
         innen omsorg. Enten du er en person som{" "}
         <span className="font-bold"> trenger omsorg </span>
         eller noen som ønsker å{" "}
-        <span className="font-bold"> tilby omsorg </span>, er "Du og vi" stedet
-        der behovet møter muligheten.
+        <span className="font-bold"> tilby omsorg </span>, er &quot;Du og
+        vi&quot; stedet der behovet møter muligheten.
       </p>
       <br />
       <p>
@@ -38,13 +38,13 @@ export default function OmOss() {
       </p>
       <br />
       <p>
-        Det er her vi kommer inn. <span className="font-bold">"Du og vi"</span>{" "}
-        har som mål å forenkle prosessen med å finne og koble mennesker med
-        omsorgsbehov til omsorgsleverandører som virkelig bryr seg. Vår
-        plattform fungerer som et <span className="font-bold"> bindeledd</span>,
-        der vi bruker vår ekspertise til å{" "}
-        <span className="font-bold"> matche </span>de som trenger omsorg med de
-        rette omsorgspersonene.
+        Det er her vi kommer inn.{" "}
+        <span className="font-bold">&quot;Du og vi&quot;</span> har som mål å
+        forenkle prosessen med å finne og koble mennesker med omsorgsbehov til
+        omsorgsleverandører som virkelig bryr seg. Vår plattform fungerer som et{" "}
+        <span className="font-bold"> bindeledd</span>, der vi bruker vår
+        ekspertise til å <span className="font-bold"> matche </span>de som
+        trenger omsorg med de rette omsorgspersonene.
       </p>
     </motion.section>
   );
