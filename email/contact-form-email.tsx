@@ -34,13 +34,12 @@ export default function ContactFormEmail({
           <Container>
             <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
               <Heading className="leading-tight">
-                DU har fått en ny beskjed fra {firstName} {lastName} i
-                kontaktskjemafeltet på duogvi.no
+                {firstName} {lastName} skrev:
               </Heading>
-              <Text>Melding: {message}</Text>
+              <Text>{message}</Text>
               <Hr />
               <Text>
-                Du kan kontakte {firstName} på {senderEmail}
+                {firstName} sin epost er: {senderEmail}
               </Text>
             </Section>
           </Container>
