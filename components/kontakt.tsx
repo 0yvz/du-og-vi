@@ -3,10 +3,11 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
-import { BsFillTelephoneForwardFill, BsMailbox } from "react-icons/bs";
-import { FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { sendEmail } from "@/actions/sendEmail";
+import SubmitBtn from "./submit-btn";
+import toast from "react-hot-toast";
+import { BsFillTelephoneForwardFill, BsMailbox } from "react-icons/bs";
 
 export default function Kontakt() {
   const { ref } = useSectionInView("Kontakt");
@@ -31,7 +32,7 @@ export default function Kontakt() {
     >
       <SectionHeading>Kontakt Oss</SectionHeading>
 
-      <p className="text-gray-700">
+      <p className="text-gray-700 mb-4">
         Du kan kontakte oss via skjemaet under, eller direkte på:
       </p>
       <p className="flex justify-center">
@@ -47,32 +48,52 @@ export default function Kontakt() {
       </p>
 
       <form
-        className="mt-10 flex flex-col"
-        action={async (fromData) => {
-          await sendEmail(fromData);
+        className="mt-10 flex flex-col dark:text-black"
+        action={async (formData) => {
+          const { data, error } = await sendEmail(formData);
+
+          if (error) {
+            toast.error(error);
+            return;
+          }
+
+          toast.success("Meldingen din har blitt sendt!");
         }}
       >
+        <div className="flex flex-row justify-stretch">
+          <input
+            className="h-14 rounded-lg border border-black/10 px-4 w-full"
+            name="firstName"
+            type="text"
+            required
+            maxLength={30}
+            placeholder="Fornavn"
+          />
+          <input
+            className="h-14 rounded-lg border border-black/10 px-4 w-full ml-3 mb-3"
+            name="lastName"
+            type="text"
+            required
+            maxLength={30}
+            placeholder="Etternavn"
+          />
+        </div>
         <input
           className="h-14 rounded-lg border border-black/10 px-4"
+          name="senderEmail"
           type="email"
-          required={true}
+          required
           maxLength={300}
-          placeholder="Din E-post"
+          placeholder="E-post"
         />
         <textarea
           className="h-52 my-3 rounded-lg border border-black/10 p-4"
-          placeholder="Meldingen din"
-          required={true}
+          name="message"
+          required
           maxLength={3000}
+          placeholder="Meldingen din"
         />
-        <button
-          className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all hover:bg-green-700 hover:scale-110 focus:scale-110 active:scale-105"
-          type="submit"
-        >
-          {" "}
-          Send{" "}
-          <FaPaperPlane className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1 " />
-        </button>
+        <SubmitBtn />
       </form>
     </motion.section>
   );
