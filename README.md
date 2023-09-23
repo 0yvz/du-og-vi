@@ -8,4 +8,4 @@
 
 A simple info page with a contact form. Made in React with Next.js, Typescript and Tailwind. Framer motion for animations and resend for email API.
 
-Preview deployed [here](https://du-og-fwfkzqxmq-0yvz.vercel.app/).
+Preview deployed [here](https://du-og-vi.vercel.app/).
