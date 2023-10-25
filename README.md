@@ -6,6 +6,6 @@
 
 ---
 
-A simple info page with a contact form. Made in React with Next.js, Typescript and Tailwind. Framer motion for animations and resend for email API.
+A simple info page with a contact form. Made in Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting.
 
 Preview deployed [here](https://du-og-vi.vercel.app/).
