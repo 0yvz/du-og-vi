@@ -4,48 +4,61 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function OmOss() {
-  const { ref } = useSectionInView("Om oss");
+	const { ref } = useSectionInView("Om oss");
 
-  return (
-    <motion.section
-      ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-10 scroll-mt-28"
-      initial={{ y: 100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ delay: 0.2, duration: 0.5 }}
-      id="omoss"
-    >
-      <SectionHeading>Om Oss</SectionHeading>
-      <p>
-        Vi er her for å <span className="font-bold"> bringe sammen </span>{" "}
-        mennesker som søker omsorg og de som besitter kunnskapen og ekspertisen
-        innen omsorg. Enten du er en person som{" "}
-        <span className="font-bold"> trenger omsorg </span>
-        eller noen som ønsker å{" "}
-        <span className="font-bold"> tilby omsorg </span>, er &quot;Du og
-        vi&quot; stedet der behovet møter muligheten.
-      </p>
-      <br />
-      <p>
-        Vi forstår at omsorg er en
-        <span className="font-bold"> dypt personlig og viktig </span> del av
-        livet. Uansett om du trenger omsorg for deg selv eller en kjær, kan det
-        være utfordrende å finne noen som virkelig forstår{" "}
-        <span className="font-bold"> dine behov </span>og kan gi den riktige
-        omsorgen. På samme måte kan det være vanskelig for omsorgspersoner å
-        finne de som trenger deres{" "}
-        <span className="font-bold"> kompetanse </span>og ønsker deres støtte.
-      </p>
-      <br />
-      <p>
-        Det er her vi kommer inn.{" "}
-        <span className="font-bold">&quot;Du og vi&quot;</span> har som mål å
-        forenkle prosessen med å finne og koble mennesker med omsorgsbehov til
-        omsorgsleverandører som virkelig bryr seg. Vår plattform fungerer som et{" "}
-        <span className="font-bold"> bindeledd</span>, der vi bruker vår
-        ekspertise til å <span className="font-bold"> matche </span>de som
-        trenger omsorg med de rette omsorgspersonene.
-      </p>
-    </motion.section>
-  );
+	return (
+		<motion.section
+			ref={ref}
+			className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-10 scroll-mt-28"
+			initial={{ y: 100, opacity: 0 }}
+			animate={{ y: 0, opacity: 1 }}
+			transition={{ delay: 0.2, duration: 0.5 }}
+			id="omoss"
+		>
+			<SectionHeading>Om Oss</SectionHeading>
+			<p>
+				Du og Vi er et nyetablert selskap og vårt mål er å tilby tjenester
+				som gir deg frihet til å leve det livet du selv vil.
+			</p>
+			<p>
+				Vil du ha ekstra hjelp i hjemmet? Opplever du at vedtaket fra
+				kommunen ikke strekker til? Eller ønsker du hjelp i hjemmet uten å
+				ha vedtak om hjemmehjelp?
+			</p>
+			<br />
+			<p>
+				Med private tjenester fra Du og Vi kan du få hjelp til enkelt
+				renhold i hjemmet, eller en besøksvenn og god samtalepartner.  Vi
+				bistår med følgetjenester til lege, tannlege, handletur, til
+				kulturopplevelser eller en tur ut på cafe eller andre steder du
+				ønsker å besøke.
+			</p>
+			<br />
+			<p>
+				Du og Vi har håndverkere som kan hjelpe deg med enkle tjenester som
+				å skru opp en hylle, kle om en vegg, innvendig maling etc.
+			</p>
+			<br />
+			<p>
+				Du og Vi kan deg. Tilrettelagte tjenester etter dine behov og
+				ønsker, og innenfor rammen av vedtak om BPA. Innenfor vedtaket er
+				det du som skal bestemme tidspunkt og oppgaver du trenger bistand
+				til og hvilke oppgaver som skal utføres.
+			</p>
+			<br />
+			<p>
+				<span className="text-bold">
+					Det handler om å få hjelp av en du kjenner!
+				</span>
+				<br />
+				Du og Vi vil sørge for at hjelperen din er en som kjenner deg, din
+				rutine og livsrytme, og som derfor kan forstå og møte dine ønsker og
+				behov. Vi tilbyr ulike tjenester og alle disse kan selvfølgelig
+				kombineres. Din hjelper kan for eksempel lage vaffelrøre og vanne
+				plantene mens dere skravler. Hjelperen kan ta en handletur for deg,
+				eller kanskje du har lyst til å være med? Du bestemmer selv etter
+				dine ønsker, behov og dagsform.
+			</p>
+		</motion.section>
+	);
 }
