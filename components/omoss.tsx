@@ -59,6 +59,12 @@ export default function OmOss() {
 				eller kanskje du har lyst til å være med? Du bestemmer selv etter
 				dine ønsker, behov og dagsform.
 			</p>
+
+			{/* Priser
+
+Omsorg			kr. 500,00	pr.time
+Håndverkertjenester	kr. 750,00	pr. time
+Oppgitte priser er eksklusiv merverdiavgift */}
 		</motion.section>
 	);
 }
