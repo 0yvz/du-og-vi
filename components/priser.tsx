@@ -37,7 +37,7 @@ export default function Priser() {
 		<section ref={ref} id="priser" className="scroll-m-28">
 			<SectionHeading>
 				Priser
-				<h3 className=" text-sm">Priser ekskl. mva</h3>
+				<p className=" text-sm">Priser ekskl. mva</p>
 			</SectionHeading>
 			<div className="grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-8">
 				{PrisData.map((prisdata) => (
