@@ -30,9 +30,6 @@ export default function Tjeneste({
 			}}
 			className="group mb-8 sm:mb-8 last:mb-0"
 		>
-			{/* BPA
-Bruktertilpasset personlig assistent
-Hvem som skal bistå deg som assistent og hvilke kvalifikasjoner som behøves, bestemmer du.Vi sørger for at dine assistenter har rett kompetanse.Hvilke oppgaverDu bestemmer selv hva som skal utføres av arbeidsoppgaver og hvordan disse skal utføres.Når de skal utføresDu bestemmer selv når oghvor du trenger assistanse.Vi er her for degHer kan du komme i kontakt med oss */}
 			<section className="bg-gray-400 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
 				<div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
 					<h3 className="text-2xl font-semibold text-emerald-900">
