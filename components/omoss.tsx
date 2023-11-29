@@ -40,14 +40,14 @@ export default function OmOss() {
 			</p>
 			<br />
 			<p>
-				Du og Vi kan deg. Tilrettelagte tjenester etter dine behov og
+				Du og Vi kan tilby deg tilrettelagte tjenester etter dine behov og
 				ønsker, og innenfor rammen av vedtak om BPA. Innenfor vedtaket er
 				det du som skal bestemme tidspunkt og oppgaver du trenger bistand
 				til og hvilke oppgaver som skal utføres.
 			</p>
 			<br />
 			<p>
-				<span className="text-bold">
+				<span className="font-bold">
 					Det handler om å få hjelp av en du kjenner!
 				</span>
 				<br />
