@@ -1,29 +1,31 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
-import { FaHammer } from "react-icons/fa";
+import { FaCarSide, FaHammer, FaHandHoldingHeart } from "react-icons/fa";
+import { GiBroom } from "react-icons/gi";
 
 export const PrisData = [
 	{
 		title: "BPA / Følgertjenester",
-		icon: "fas fa-car",
+		icon: FaHandHoldingHeart,
 		description: "Pris per time",
 		price: "500 kr",
 	},
 	{
 		title: "Vedlikehold",
+		icon: GiBroom,
 		description: "Pris per time",
 		price: "750 kr",
 	},
 	{
 		title: "BPA / Følgertjenester",
-		Icon: FaHammer,
+		icon: FaHammer,
 		description: "Pris per time",
 		price: "375 kr",
 	},
 	{
 		title: "Transport",
-		icon: "fas fa-car",
+		icon: FaCarSide,
 		description: "Per kilometer",
 		price: "7 kr",
 	},
@@ -38,19 +40,24 @@ export default function Priser() {
 				{PrisData.map((prisdata) => (
 					<div
 						key={prisdata.title}
-						className="text-center md:flex md:items-start md:text-left lg:block lg:text-center"
+						className="text-center border rounded-md p-3 md:flex md:items-start md:text-left lg:block lg:text-center"
 					>
 						<div className="md:flex-shrink-0 flex justify-center">
-							{/* <div className="h-16 w-16 flex items-center justify-center rounded-full bg-blue-100 text-blue-900">
-								{<PrisData.icon className="w-1/3 h-1/3" />}
-							</div> */}
+							<div className="h-28 w-28 flex items-center justify-center">
+								{React.createElement(prisdata.icon, {
+									className: "w-1/3 h-1/3",
+								})}
+							</div>
 						</div>
 
 						<div className="mt-6 md:ml-4 md:mt-0 lg:ml-0 lg:mt-6">
-							<h3 className="text-base font-medium text-gray-900">
+							<h3 className="mt-3 text-xl text-muted-foreground">
+								{prisdata.title}
+							</h3>
+							<h3 className="mt-3 text-sm text-muted-foreground">
 								{prisdata.description}
 							</h3>
-							<p className="mt-3 text-sm text-muted-foreground">
+							<p className="text-base font-medium text-gray-900">
 								{prisdata.price}
 							</p>
 						</div>
