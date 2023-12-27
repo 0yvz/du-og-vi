@@ -36,8 +36,8 @@ export default function Kontakt() {
 			</p>
 			<p className="flex justify-center">
 				<BsMailbox className="mr-2" />{" "}
-				<a className="underline mr-2" href="mailto:post@duogvi.no">
-					post@duogvi.no{" "}
+				<a className="underline mr-2" href="mailto:post@dfomsorg.no">
+					post@dfomsorg.no{" "}
 				</a>
 				og <BsFillTelephoneForwardFill className="mr-2 ml-2" />
 				<a className="underline" href="tel:+4792601265">
