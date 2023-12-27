@@ -8,25 +8,25 @@ export const PrisData = [
 	{
 		title: "BPA / Følgertjenester",
 		icon: FaHandHoldingHeart,
-		description: "Pris per time",
+		description: "Pris pr time",
 		price: "500 kr",
 	},
 	{
 		title: "Vedlikehold",
 		icon: GiBroom,
-		description: "Pris per time",
+		description: "Pris pr time",
 		price: "750 kr",
 	},
 	{
 		title: "Enkle håndtverksoppgaver",
 		icon: FaHammer,
-		description: "Pris per time",
+		description: "Pris pr time",
 		price: "375 kr",
 	},
 	{
 		title: "Transport",
 		icon: FaCarSide,
-		description: "Per kilometer",
+		description: "Pr kilometer",
 		price: "7 kr",
 	},
 ];
