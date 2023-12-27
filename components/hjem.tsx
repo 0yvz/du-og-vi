@@ -59,8 +59,8 @@ export default function Hjem() {
 			>
 				<span>
 					Hei, velkommen til{" "}
-					<span className="font-bold"> omsorgstjenesten Du & Vi.</span>{" "}
-					<br /> Du og Vi ønsker å bidra til at du får et bedre liv slik at
+					<span className="font-bold"> omsorgstjenesten DfOmsorg.</span>{" "}
+					<br /> DfOmsorg ønsker å bidra til at du får et bedre liv slik at
 					du kan få frihet til å leve det livet du selv vil. Vi er her for
 					deg og vil bistå deg for at din hverdag skal bli lettere. Ta
 					gjerne <span className="font-bold">kontakt</span> med oss 👇
