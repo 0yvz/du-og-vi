@@ -17,7 +17,7 @@ export default function OmOss() {
 		>
 			<SectionHeading>Om Oss</SectionHeading>
 			<p>
-				Du og Vi er et nyetablert selskap og vårt mål er å tilby tjenester
+				DfOmsorg er et nyetablert selskap og vårt mål er å tilby tjenester
 				som gir deg frihet til å leve det livet du selv vil.
 			</p>
 			<p>
@@ -27,7 +27,7 @@ export default function OmOss() {
 			</p>
 			<br />
 			<p>
-				Med private tjenester fra Du og Vi kan du få hjelp til enkelt
+				Med private tjenester fra DfOmsorg kan du få hjelp til enkelt
 				renhold i hjemmet, eller en besøksvenn og god samtalepartner.  Vi
 				bistår med følgetjenester til lege, tannlege, handletur, til
 				kulturopplevelser eller en tur ut på cafe eller andre steder du
@@ -40,7 +40,7 @@ export default function OmOss() {
 			</p>
 			<br />
 			<p>
-				Du og Vi kan tilby deg tilrettelagte tjenester etter dine behov og
+				DfOmsorg kan tilby deg tilrettelagte tjenester etter dine behov og
 				ønsker, og innenfor rammen av vedtak om BPA. Innenfor vedtaket er
 				det du som skal bestemme tidspunkt og oppgaver du trenger bistand
 				til og hvilke oppgaver som skal utføres.
@@ -51,7 +51,7 @@ export default function OmOss() {
 					Det handler om å få hjelp av en du kjenner!
 				</span>
 				<br />
-				Du og Vi vil sørge for at hjelperen din er en som kjenner deg, din
+				Dfomsorg vil sørge for at hjelperen din er en som kjenner deg, din
 				rutine og livsrytme, og som derfor kan forstå og møte dine ønsker og
 				behov. Vi tilbyr ulike tjenester og alle disse kan selvfølgelig
 				kombineres. Din hjelper kan for eksempel lage vaffelrøre og vanne
