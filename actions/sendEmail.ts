@@ -38,7 +38,7 @@ export const sendEmail = async (formData: FormData) => {
 	let data;
 	try {
 		data = await resend.emails.send({
-			from: "post@dfomsorg.no",
+			from: "ikkesvar@dfomsorg.no",
 			to: "post@dfomsorg.no",
 			subject: "Ny melding på DfOmsorg",
 			reply_to: senderEmail,
