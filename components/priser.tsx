@@ -21,7 +21,7 @@ export const PrisData = [
 		title: "Enkle håndtverksoppgaver",
 		icon: FaHammer,
 		description: "Pris pr time",
-		price: "375 kr",
+		price: "750 kr",
 	},
 	{
 		title: "Transport",
